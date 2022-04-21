@@ -1,2 +1,3 @@
 # Portif-lio-Responsivo
-- Primeiro código responsivo que faço
+! [Imagem do site] (../img/site.png)  
+
