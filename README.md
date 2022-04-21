@@ -11,7 +11,6 @@
 <img src="img/skills_pc.png" alt="Skills">
 
 <img src="img/rodape_pc.png" alt="Footer">
-<p> Responsividade realizada com Bootstrap 5</p>
 
 <p> Responsividade realizada com Bootstrap 5</p>
 
