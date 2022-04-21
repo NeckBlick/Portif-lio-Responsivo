@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -72,13 +72,13 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="mt-5">
-      <div class="container-fluid">
-        <div class="row justify-content-evenly">
+    <section id="about" class="d-flex justify-content-center mt-5 vh-100">
+      <div class="container-fluid d-flex justify-content-center" id="">
+        <div class="row justify-content-center">
           <div class="col d-flex align-center">
             <img id="img" src="img/eu.jpeg" alt="" />
           </div>
-          <div class="col">
+          <div class="col d-flex align-items-center flex-column justify-content-center">
             <h1 class="display-2">Eu sou desenvolvedor web</h1>
             <p class="fs-3">
               Meu nome é Nicolas Gomes Leal, tenho 18 anos e moro em São Paulo.
@@ -93,8 +93,8 @@
     <!-- Skills -->
     <section id="skills" class="d-flex justify-content-center mt-5 vh-80">
       <div class="container-fluid d-flex justify-content-center gap-3">
-        <div class="row vw-100 align-items-center">
-          <div
+        <div class="row vw-100 align-items-center gap-2">
+          <div id="coluna1"
             class="col d-flex flex-column shadow p-3 mb-5 bg-body rounded h-100 w-75"
             id="front"
           >
@@ -122,7 +122,7 @@
     <!-- Rodapé -->
     <footer class="h-50 mt-5" id="contact">
       <div class="container-fluid bg-dark text-white p-2">
-        <div class="row align-items-center">
+        <div class="row w-100 gap-3 align-items-center">
           <div class="col text-center align-self-center">
             <img src="img/email.png" id="email" alt="" />
             <p class="h1 fw-bold">Email</p>
