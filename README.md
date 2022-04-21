@@ -1,3 +1,4 @@
 # Portif-lio-Responsivo
-! [Imagem do site] (../img/site.png)  
+
+<img src="../img/site.png" alt="Foto do site">
 
