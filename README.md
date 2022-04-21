@@ -12,6 +12,7 @@
 
 <img src="img/rodape_pc.png" alt="Footer">
 
+<p> Responsividade realizada com Bootstrap 5</p>
 
 ### Esse é o site no celular
 ​                                            <img src="img/site_mobile.png" alt="Site no celular"> 
