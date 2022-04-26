@@ -38,3 +38,6 @@ body{
         flex-direction: column;
     }
 }
+.z-index{
+    z-index: 9999;
+}

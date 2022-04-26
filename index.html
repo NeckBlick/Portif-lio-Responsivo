@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed top w-100 z-index" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand fs-1 fw-bold" href="#" id="nav-title">Nicolas</a>
         <button
@@ -51,6 +51,11 @@
             <li class="nav-item">
               <a class="nav-link text-white fs-4" href="#skills" id="navtext"
                 >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-4" id="navtext" href="#projects"
+                >Projects</a
               >
             </li>
             <li class="nav-item">
@@ -91,11 +96,12 @@
     </section>
 
     <!-- Skills -->
-    <section id="skills" class="d-flex justify-content-center mt-5 vh-80">
+    <section id="skills" class="d-flex justify-content-center mt-5 mb-5 vh-80">
       <div class="container-fluid d-flex justify-content-center gap-3">
-        <div class="row vw-100 align-items-center gap-2">
+        <div class="row vw-100 align-items-center text-center gap-2">
+          <h1>Skills</h1>
           <div id="coluna1"
-            class="col d-flex flex-column shadow p-3 mb-5 bg-body rounded h-100 w-75"
+            class="col d-flex flex-column shadow p-3 mb-5 bg-body rounded h-75 w-75"
             id="front"
           >
             <p class="h1 text-center">Front End</p>
@@ -107,13 +113,42 @@
             </ul>
           </div>
           <div
-            class="col align-self-center d-flex flex-column shadow p-3 mb-5 bg-body rounded h-100 w-75"
+            class="col align-self-center d-flex flex-column shadow p-3 mb-5 bg-body rounded h-75 w-75"
           >
             <p class="h1 text-center">Back End</p>
             <ul class="list-group text-center">
               <li class="list-group-item">C#</li>
               <li class="list-group-item">Python</li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container-fluid">
+        <div class="row text-center justify-content-center">
+          <h1>Projetos</h1>
+          <div class="col-6  d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="img/desktop-design.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pagina de Login(Sem validação)</h5>
+                <p class="card-text">Pagina de login realizada com HTML, CSS e Bootsrap.</p>
+                <a href="https://neckblick.github.io/Projects/" class="btn btn-primary">Visualizar projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="img/desktop-preview.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pagina de Login(Com validação)</h5>
+                <p class="card-text">Pagina de login realizada com HTML,CSS e JavaScript, com validação</p>
+                <a href="#" class="btn btn-primary">Visualizar projeto</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
